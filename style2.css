@@ -1,7 +1,8 @@
+
 #container{
     width: 1080px;
     margin: 0 auto;
-    background:		#E0E0E0;
+    background:#E0E0E0;
 }
 
 #top-bar{
@@ -105,3 +106,269 @@ header{
     padding-bottom: 5px;
     
 }
+
+
+#menu-box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background:#bdbdbd;
+    align-items: center;
+    
+}
+
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    padding: 15px 30px;
+}
+
+.menu a:hover{
+    background: #000000;
+    color: #ffffff;
+}
+ /* -- menu -- */
+
+ #slider{
+     width: 1080px;
+     height: 350px;
+
+ }
+
+ .slide{
+     background: url(Image/sldie.jpg) no-repeat center;
+     height: 100%;
+     width: 100%;
+     display: flex;
+ }
+
+.left,.right {
+    width: 50px;
+    align-self: center;
+}
+
+.slider-content{
+    width: 980px;
+    align-self: flex-end;
+    margin-bottom: 40px;
+    padding-left: 70px;
+}
+
+.slider-content h6{
+    color: white;
+}
+
+.slider-content h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.slider-content p{
+    color:white;
+    margin-bottom: 10px;
+}
+
+.btn-slider {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.btn-slider:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.btn-slider:active {
+	position:relative;
+	top:1px;
+}
+
+
+ /* service-box */
+#service-area{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    height: 250px;  
+    margin-top: 20px;
+}
+.service-box{
+    width: 306px;
+    height: 210px;
+    display: flex;
+    align-items: flex-end;
+  
+    padding: 20px;
+
+}
+
+.contact h2{
+    font-size: 25px;
+    color: white;
+}
+.contact p{
+    margin-top: 10px;
+    color: white;
+}
+.back_one{
+    background: url(Image/cat1.jpg) no-repeat;
+    background-size:cover;
+}
+
+.back_two{
+    background: url(Image/cat2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.back_three{
+    background: url(Image/cat3.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*title-area*/
+#title-area{
+    padding:50px 0 30px;
+   
+}
+
+#title-area h1{
+    margin-bottom: 60px;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+#title-area p{
+    font-size:40px;
+    text-align: center;
+    align-items: center;
+    
+}
+#segment-area{
+    width: 1080px;
+    height: 320px;
+    background:rgba(68, 64, 64, 0.322);
+    display: flex;
+    
+}
+
+#left-segement{
+    width: 700px;
+    align-self: flex-end;
+    margin-bottom: 40px;
+    padding:0px 20px 10px 50px;
+}
+ 
+
+    
+    
+
+#left-segement h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+    
+    
+}
+#left-segement p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  
+}
+
+    
+
+
+#right-segement{
+    width: 381px;
+    height: 107px;
+    
+    
+    
+}
+
+.headd1{
+    width: 381px;
+    height: 107px;
+    background: #999999;
+    
+    
+    
+}
+.headd2 {
+    width: 381px;
+    height: 107px;
+    background: #b3b3b3;  
+    margin-top: auto;
+    
+}
+
+.headd2 h2{
+    font-weight: bold;
+    align-self: flex-end;
+    
+}
+    
+.headd2 p{
+    
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+
+.headd3 p{
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+
+
+.headd3{
+    width: 381px;
+    height: 107px;
+    background:#999999;
+}
+
+.headd3 h2{
+    font-weight: bold;
+}
+
+.btn{
+	box-shadow:inset black;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:black;
+	border-radius:6px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:black;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
